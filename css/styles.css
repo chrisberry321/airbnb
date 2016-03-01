@@ -1,0 +1,110 @@
+/* Some CSS Setup - nothing to do with flexbox */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  overflow: hidden;
+}
+
+/*Video*/
+
+
+/*.header-nav {
+  height: 40px;
+  width: 100%;
+}*/
+header {
+  height: 400px;
+  width: 100vw;
+  position: relative;
+}
+
+.mobal-nav {
+  width: 100vw;
+  /*display: flex;
+  flex-direction: row;
+  justify-content: center;*/
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+}
+
+.fa-bars {
+  font-size: 20px;
+  color: red;
+  margin: 10px 0 0 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navbar-nav {
+  display: none;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+
+/*Hack to get them to align properly */
+/*.flex-form > *:not([type="date"]) {
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+    order: 5;
+}
+
+.flex-form input[type="submit"] {
+  background:#FF5A5F;
+  border-top: 1px solid #FF5A5F;
+  border-bottom: 1px solid #FF5A5F;
+  color:white;
+}
+
+.flex-form > * {
+  border:0;
+  padding:10px;
+  background:white;
+  line-height:50px;
+  font-size: 20px;
+  border-radius:0;
+  outline:0;
+  order: 9999;
+  border-right:1px solid rgba(0,0,0,0.2);
+  -webkit-appearance:none;
+}
+
+.flex-form > *:last-child {
+  border-right: 0;
+}*/
+
+/*Flexbox Starts Here*/
+/*.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-form {
+  display: flex;
+  border: 20px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+input[type="search"] {
+  flex-basis: 500px;
+}*/
